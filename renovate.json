@@ -1,6 +1,30 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [":dependencyDashboard", ":semanticCommitTypeAll(chore)", ":autodetectPinVersions", ":prHourlyLimitNone", ":prConcurrentLimitNone", "group:recommended"],
+	"baseBranches": ["develop"],
+	"rangeStrategy": "bump",
+	"labels": ["dependencies"],
+	"packageRules": [
+		{
+			"matchUpdateTypes": ["minor", "patch"],
+			"matchCurrentVersion": "!/^0/",
+			"automerge": true
+		},
+		{
+			"groupName": "Discord Dependencies",
+			"matchPackagePatterns": ["discord.js", "discord-api-types"]
+		},
+		{
+			"groupName": "TypeScript Dependencies",
+			"matchPackagePatterns": ["typescript", "@types/node"]
+		},
+		{
+			"groupName": "Sapphire Dependencies",
+			"matchPackagePrefixes": ["@sapphire/"]
+		}
+	],
+	"lockFileMaintenance": {
+		"enabled": true,
+		"automerge": true
+	}
 }
