@@ -37,7 +37,7 @@
     "format": "prettier --write \"src/\""
   },
   "prettier": "@sapphire/prettier-config",
-  "packageManager": "yarn@3.5.1",
+  "packageManager": "yarn@3.6.0",
   "eslintConfig": {
     "extends": "@sapphire"
   }
