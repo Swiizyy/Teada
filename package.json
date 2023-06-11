@@ -7,7 +7,7 @@
   "type": "commonjs",
   "dependencies": {
     "@sapphire/decorators": "^6.0.1",
-    "@sapphire/discord.js-utilities": "6.1.0",
+    "@sapphire/discord.js-utilities": "7.0.0",
     "@sapphire/eslint-config": "^4.4.2",
     "@sapphire/framework": "^4.4.4",
     "@sapphire/plugin-logger": "^3.0.4",
