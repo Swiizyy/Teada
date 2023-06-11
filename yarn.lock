@@ -444,6 +444,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/ws@npm:^8.5.5":
+  version: 8.5.5
+  resolution: "@types/ws@npm:8.5.5"
+  dependencies:
+    "@types/node": "*"
+  checksum: d00bf8070e6938e3ccf933010921c6ce78ac3606696ce37a393b27a9a603f7bd93ea64f3c5fa295a2f743575ba9c9a9fdb904af0f5fe2229bf2adf0630386e4a
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/eslint-plugin@npm:^5.59.2":
   version: 5.59.5
   resolution: "@typescript-eslint/eslint-plugin@npm:5.59.5"
@@ -1862,7 +1871,7 @@ __metadata:
     "@sapphire/utilities": ^3.11.2
     "@skyra/env-utilities": ^1.2.0
     "@types/node": ^20.3.0
-    "@types/ws": ^8.5.4
+    "@types/ws": ^8.5.5
     colorette: ^2.0.20
     discord.js: ^14.11.0
     prettier: ^2.8.8
