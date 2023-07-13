@@ -421,10 +421,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.3.2":
-  version: 20.3.2
-  resolution: "@types/node@npm:20.3.2"
-  checksum: 5929ce2b9b12b1e2a2304a0921a953c72a81f5753ad39ac43b99ce6312fbb2b4fb5bc6b60d64a2550704e3223cd5de1299467d36085ac69888899db978f2653a
+"@types/node@npm:^20.4.2":
+  version: 20.4.2
+  resolution: "@types/node@npm:20.4.2"
+  checksum: 99e544ea7560d51f01f95627fc40394c24a13da8f041121a0da13e4ef0a2aa332932eaf9a5e8d0e30d1c07106e96a183be392cbba62e8cf0bf6a085d5c0f4149
   languageName: node
   linkType: hard
 
@@ -1860,7 +1860,7 @@ __metadata:
     "@sapphire/ts-config": ^4.0.0
     "@sapphire/utilities": ^3.12.0
     "@skyra/env-utilities": ^1.2.1
-    "@types/node": ^20.3.2
+    "@types/node": ^20.4.2
     "@types/ws": ^8.5.5
     colorette: ^2.0.20
     discord.js: ^14.11.0
